@@ -11,6 +11,15 @@ const projects = [
         tags: ['React', 'TailwindCSS', "NodeJS"],
         demoUrl: 'https://``khushal1421.github.io/react-project-e-commerce/',
         githubUrl:'https://github.com/Khushal1421/react-project-e-commerce'
+    },
+    {
+        id: 2,
+        title: "QuestDock App",
+        description: "Website which allows teachers to create tests for students and for students to give the tests",
+        image: '/my-portfolio/projects/project2.png',
+        tags: ['NextJS', 'Supabase'],
+        demoUrl: '',
+        githubUrl:'https://github.com/Khushal1421/questdock-charpixel-project'
     }
 ]
 

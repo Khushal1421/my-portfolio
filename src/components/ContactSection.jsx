@@ -206,7 +206,7 @@ export const ContactSection = () =>{
     
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="space-y-8">
-                <h3 className="text-2xl font-semibold mb-6">
+                <h3 className="text-2xl font-semibold  mb-6">
                   {" "}
                   Contact Information
                 </h3>
@@ -217,7 +217,7 @@ export const ContactSection = () =>{
                       <Mail className="h-6 w-6 text-primary" />{" "}
                     </div>
                     <div>
-                      <h4 className="font-medium"> Email</h4>
+                      <h4 className="font-medium text-start pb-1"> Email</h4>
                       <a
                         href="mailto:hello@gmail.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
@@ -231,7 +231,7 @@ export const ContactSection = () =>{
                       <Phone className="h-6 w-6 text-primary" />{" "}
                     </div>
                     <div>
-                      <h4 className="font-medium"> Phone</h4>
+                      <h4 className="font-medium text-start pb-1"> Phone</h4>
                       <a
                         href="tel:+11234567890"
                         className="text-muted-foreground hover:text-primary transition-colors"
@@ -245,8 +245,8 @@ export const ContactSection = () =>{
                       <MapPin className="h-6 w-6 text-primary" />{" "}
                     </div>
                     <div>
-                      <h4 className="font-medium"> Location</h4>
-                      <a className="text-muted-foreground hover:text-primary transition-colors">
+                      <h4 className="font-medium text-start pb-1"> Location</h4>
+                      <a className="w-full text-muted-foreground hover:text-primary transition-colors text-start -ml-6">
                         Delhi
                       </a>
                     </div>
