@@ -8,8 +8,8 @@ const projects = [
         title: "E-Commerce Website",
         description: "A Website at which you can buy your daily-needed Items . Made using React and TailWind ",
         image: '/my-portfolio/projects/project1.png',
-        tags: ['React', 'TailwindCSS', "NodeJS"],
-        demoUrl: 'https://``khushal1421.github.io/react-project-e-commerce/',
+        tags: ['React', 'TailwindCSS'],
+        demoUrl: 'https://khushal1421.github.io/react-project-e-commerce/',
         githubUrl:'https://github.com/Khushal1421/react-project-e-commerce'
     },
     {
@@ -18,7 +18,7 @@ const projects = [
         description: "Website which allows teachers to create tests for students and for students to give the tests",
         image: '/my-portfolio/projects/project2.png',
         tags: ['NextJS', 'Supabase'],
-        demoUrl: '',
+        demoUrl: 'https://questdock-charpixel-project-3xce-hawuma82j.vercel.app/',
         githubUrl:'https://github.com/Khushal1421/questdock-charpixel-project'
     }
 ]
